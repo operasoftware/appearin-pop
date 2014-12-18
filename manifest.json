@@ -5,12 +5,15 @@
 	"version": "1.0.0",
 	"homepage_url": "https://github.com/operasoftware/appearin-pop",
 	"icons": {
-		"16": "img/logo-16.png",
-		"48": "img/logo-48.png",
-		"128": "img/logo-128.png"
+		"16": "img/icon-16.png",
+		"48": "img/icon-48.png",
+		"128": "img/icon-128.png"
 	},
 	"browser_action": {
-		"default_icon": "img/logo-38.png",
+		"default_icon": {
+			"19": "img/icon-19.png",
+			"38": "img/icon-38.png"
+		},
 		"default_title": "Create an appear.in room",
 		"default_popup": "popup.html"
 	},
