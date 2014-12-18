@@ -1,0 +1,146 @@
+html, input {
+	font: 12px/1.5 Lucida Grande, sans-serif;
+}
+html {
+	color: #fff;
+}
+body {
+	/* Override the value of 75% in default extension popup stylesheet. */
+	font-size: 100%;
+	width: 300px;
+	background: url(img/background-overlay.png), url(img/background-polar.jpg) no-repeat center center fixed;
+	background-size: auto, cover;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #fff;
+}
+h1 {
+	background: url(img/logo-small.svg) no-repeat 0px -8px;
+	background-size: 50px 50px;
+	font-family: Open Sans, Helvetica, Arial, sans-serif;
+	height: 35px;
+	width: 100px;
+	color: #fff;
+	margin: 10px auto;
+	padding-left: 55px;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+	font-size: 21px;
+	line-height: 1.3;
+}
+h2 {
+	font-size: 1em;
+}
+nav {
+	text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+ul {
+	padding-left: 0;
+}
+li {
+	list-style-type: none;
+	line-height: 2;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+li:last-child {
+	border-bottom: none;
+}
+li a {
+	text-decoration: none;
+}
+.recent-rooms h2 {
+	padding: 0 8px;
+}
+.recent-rooms-list li {
+	position: relative;
+}
+.remove-list-item {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0 10px;
+}
+.remove-list-item:hover,
+.remove-list-item:focus,
+.list-item-room-link:hover,
+.list-item-room-link:focus {
+	background: #fa4668;
+}
+.list-item-room-link {
+	display: block;
+	padding: 0 8px;
+}
+.list-item-room-link:hover,
+.list-item-room-link:focus {
+	background: #fa4668;
+}
+.room-url {
+	color: #000;
+}
+.room-name {
+	font-weight: bold;
+	color: #000;
+	position: relative;
+	left:-0.1ex;
+}
+.room-url-name {
+	background-color: #fff;
+	padding: 8px;
+	border-radius: 2px;
+	overflow: hidden;
+}
+.room-url-name ::selection {
+	color: #fff;
+	background-color: #fa4668;
+}
+nav {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 8px 0;
+}
+.container {
+	background-color: #27282c;
+	padding: 8px;
+}
+.open-room {
+	display: block;
+	background-color: #fa4668;
+	border-radius: 3px;
+	padding: 5px;
+	width: 80px;
+	margin: 10px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+.open-room:hover,
+.open-room:focus {
+	background-color: #f91e48;
+}
+input {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 160px;
+}
+input:focus {
+	outline-offset: -2px;
+	outline: #f91e48 auto 5px;
+}
+@-webkit-keyframes nope {
+	from { transform: translate(0, 0); }
+	to { transform: translate(10px, 0); }
+}
+@keyframes nope {
+	from { transform: translate(0, 0); }
+	to { transform: translate(10px, 0); }
+}
+:invalid {
+	background: pink;
+	color: red;
+	-webkit-animation: nope 0.05s linear 0s 6 alternate;
+	animation: nope 0.05s linear 0s 6 alternate;
+}
+.hide {
+	display: none;
+}

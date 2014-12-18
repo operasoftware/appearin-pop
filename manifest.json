@@ -1,0 +1,33 @@
+{
+	"manifest_version": 2,
+	"name": "appear.in",
+	"description": "Start appear.in conversations straight from your browser",
+	"version": "1.0.0",
+	"homepage_url": "https://github.com/operasoftware/appearin-pop",
+	"icons": {
+		"16": "img/logo-16.png",
+		"48": "img/logo-48.png",
+		"128": "img/logo-128.png"
+	},
+	"browser_action": {
+		"default_icon": "img/logo-38.png",
+		"default_title": "Create an appear.in room",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": [
+			"js/background.js"
+		]
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_end",
+			"matches": [
+				"https://appear.in/*"
+			],
+			"js": [
+				"js/track-recent-rooms.js"
+			]
+		}
+	]
+}
