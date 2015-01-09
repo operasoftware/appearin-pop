@@ -1,0 +1,23 @@
+{
+	"extensionDescription": {
+		"message": "Start appear.in conversations straight from your browser."
+	},
+	"extensionTitle": {
+		"message": "Create an appear.in room"
+	},
+	"recentRooms": {
+		"message": "Recent rooms:"
+	},
+	"shareThisLink": {
+		"message": "Share this link to start a new video chat:"
+	},
+	"explanation1": {
+		"message": "Press <kbd class=\"modifier-key\">⌘</kbd> + <kbd>C</kbd> to copy."
+	},
+	"explanation2": {
+		"message": "Paste this link in a Facebook chat, email, SMS or other messaging service to invite someone to a live video conversation."
+	},
+	"goToRoom": {
+		"message": "Go to room"
+	}
+}

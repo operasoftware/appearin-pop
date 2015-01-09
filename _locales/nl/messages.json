@@ -1,0 +1,23 @@
+{
+	"extensionDescription": {
+		"message": "Start een nieuw appear.in-gesprek met een paar kliks."
+	},
+	"extensionTitle": {
+		"message": "Maak een appear.in-kamer aan"
+	},
+	"recentRooms": {
+		"message": "Recente kamers:"
+	},
+	"shareThisLink": {
+		"message": "Deel deze link om een nieuw video-gesprek te starten:"
+	},
+	"explanation1": {
+		"message": "Druk <kbd class=\"modifier-key\">⌘</kbd> + <kbd>C</kbd> om te kopiëren."
+	},
+	"explanation2": {
+		"message": "Plak deze link in een Facebook-chatbericht, e-mail, sms, of andere service om iemand uit te nodigen voor een real-time video-chat."
+	},
+	"goToRoom": {
+		"message": "Open gesprek"
+	}
+}

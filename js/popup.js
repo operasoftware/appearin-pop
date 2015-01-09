@@ -98,6 +98,11 @@ function selectContents(element) {
 	selection.addRange(range);
 }
 
+// Translate the content before doing anything else.
+[].forEach.call(document.querySelectorAll('[data-translate]'), function(element) {
+	element.innerHTML = chrome.i18n.getMessage(element.dataset.translate);
+});
+
 var elOpenRoom = $('.open-room');
 var elRoomUrl = $('.room-url');
 var elRoomName = $('.room-name');

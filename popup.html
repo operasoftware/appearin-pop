@@ -4,7 +4,7 @@
 <link href="css/popup.css" rel="stylesheet">
 <h1>appear.in</h1>
 <nav class="recent-rooms hide">
-	<h2>Recent rooms:</h2>
+	<h2 data-translate="recentRooms">Recent rooms:</h2>
 	<ul class="recent-rooms-list">
 		<script type="text/template" id="template-room-list-item">
 			<li><a href="{{url}}" class="list-item-room-link" target="_blank">{{name}}</a> <a href="#" class="remove-list-item" data-name="{{name}}">&times;</a></li>
@@ -12,12 +12,14 @@
 	</ul>
 </nav>
 <div class="container">
-	<h2>Share this link to start a new video chat:</h2>
+	<h2 data-translate="shareThisLink">Share this link to start a new video chat:</h2>
 	<div class="room-url-name">
 	<span class="room-url"><span class="url-prefix">https://appear.in/</span><span class="room-name">…</span><input class="room-name-input hide" pattern="[a-z0-9-]+" maxlength="16"></span>
 	</div>
-	<div class="explanation"><p><strong>Press <kbd class="modifier-key">⌘</kbd> + <kbd>C</kbd> to copy.</strong></p><p>Paste this link in a Facebook chat, email, SMS or other messaging service to invite someone to a live video conversation.</p>
+	<div class="explanation">
+		<p><strong data-translate="explanation1">Press <kbd class="modifier-key">⌘</kbd> + <kbd>C</kbd> to copy.</strong></p>
+		<p data-translate="explanation2">Paste this link in a Facebook chat, email, SMS or other messaging service to invite someone to a live video conversation.</p>
 	</div>
 </div>
-<a class="open-room" href="." target="_blank">Go to room</a>
+<a class="open-room" href="." target="_blank" data-translate="goToRoom">Go to room</a>
 <script src="js/popup.js"></script>

@@ -1,7 +1,8 @@
 {
 	"manifest_version": 2,
 	"name": "appear.in",
-	"description": "Start appear.in conversations straight from your browser",
+	"default_locale": "en",
+	"description": "__MSG_extensionDescription__",
 	"version": "1.0.0",
 	"homepage_url": "https://github.com/operasoftware/appearin-pop",
 	"icons": {
@@ -14,7 +15,7 @@
 			"19": "img/icon-19.png",
 			"38": "img/icon-38.png"
 		},
-		"default_title": "Create an appear.in room",
+		"default_title": "__MSG_extensionTitle__",
 		"default_popup": "popup.html"
 	},
 	"background": {
