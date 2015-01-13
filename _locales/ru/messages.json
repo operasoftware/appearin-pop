@@ -1,0 +1,23 @@
+{
+	"extensionDescription": {
+		"message": "Начните общение в appear.in в одно нажатие на кнопку."
+	},
+	"extensionTitle": {
+		"message": "Создать комнату в appear.in"
+	},
+	"recentRooms": {
+		"message": "Недавние комнаты:"
+	},
+	"shareThisLink": {
+		"message": "Поделитесь этой ссылкой, чтобы начать видеочат:"
+	},
+	"explanation1": {
+		"message": "Нажмите <kbd class=\"modifier-key\">⌘</kbd> + <kbd>C</kbd>, чтобы скопировать."
+	},
+	"explanation2": {
+		"message": "Вставьте эту ссылку в чат Facebook, письмо, смс или другой сервис для общения, чтобы пригласить друга в живое общение по видео."
+	},
+	"goToRoom": {
+		"message": "Перейти в комнату"
+	}
+}
