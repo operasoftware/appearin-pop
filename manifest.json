@@ -12,8 +12,8 @@
 	},
 	"browser_action": {
 		"default_icon": {
-			"19": "img/icon-19.png",
-			"38": "img/icon-38.png"
+			"19": "img/button-19.png",
+			"38": "img/button-38.png"
 		},
 		"default_title": "__MSG_extensionTitle__",
 		"default_popup": "popup.html"
