@@ -1,4 +1,3 @@
-appearin-pop
-============
+# appear.in Pop
 
-Repository for the appear.in Pop extension
+![](img/cover.png)
