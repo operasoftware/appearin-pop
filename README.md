@@ -1,3 +1,3 @@
-# appear.in Pop
+# Appear.in Pop
 
 ![](img/cover.png)
