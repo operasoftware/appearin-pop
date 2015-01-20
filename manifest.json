@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "appear.in pop",
+	"name": "Appear.in Pop",
 	"default_locale": "en",
 	"description": "__MSG_extensionDescription__",
 	"version": "1.0.0",
