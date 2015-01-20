@@ -8,7 +8,7 @@ body {
 	/* Override the value of 75% in default extension popup stylesheet. */
 	font-size: 100%;
 	width: 300px;
-	background: url(img/background-overlay.png), url(img/background-polar.jpg) no-repeat center center fixed;
+	background: url(/img/background-overlay.png), url(/img/background-polar.jpg) no-repeat center center fixed;
 	background-size: auto, cover;
 	padding: 0;
 	margin: 0;
@@ -17,7 +17,7 @@ a {
 	color: #fff;
 }
 h1 {
-	background: url(img/logo.svg) no-repeat 0px -8px;
+	background: url(/img/logo.svg) no-repeat 0px -8px;
 	background-size: 50px 50px;
 	font-family: Open Sans, Helvetica, Arial, sans-serif;
 	height: 35px;
