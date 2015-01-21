@@ -2,6 +2,9 @@
 	"extensionDescription": {
 		"message": "Start appear.in conversations with the click of a button."
 	},
+	"extendedDescription": {
+		"message": "This extension adds a button to the browser UI, which allows you to instantly create an appear.in chat room with a generated or custom name. The last three rooms you’ve created are saved as well, so you can easily jump back to them."
+	},
 	"extensionTitle": {
 		"message": "Create an appear.in room"
 	},
