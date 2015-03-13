@@ -4,7 +4,7 @@ var $ = document.querySelector.bind(document);
 
 function roomNameToUrl(name) {
 	name = String(name);
-	var path = name.indexOf('/') == 0 ? name : '/' + name;
+	var path = name.startsWith('/') ? name : '/' + name;
 	return 'https://appear.in' + path;
 }
 
